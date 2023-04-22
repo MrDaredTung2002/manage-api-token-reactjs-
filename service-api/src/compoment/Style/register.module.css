@@ -1,0 +1,123 @@
+.registerLayout{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(181, 181, 181, 0.275);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register{
+    background-color: white;
+    width: 50%;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 1.4rem rgba(130, 130, 130, 0.442);
+}
+.registerTable{
+    margin: 2rem;
+}
+.registerTitle{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+.registerInfo{
+    margin-bottom: 4rem;
+}
+.registerInfo > .registerName{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0 0 2rem;
+}
+.registerInfo label{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 10rem;
+}
+.registerInfo p{
+    padding-left: 0.2rem;
+    color: red;
+}
+.registerInfo input{
+    width: 50%;
+    height: 2.2rem;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+}
+.registerInfo form{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.registerMess svg{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 400;
+    bottom: -0.5rem;
+    left: 37%;
+    color: rgb(0, 163, 0);
+    font-style: italic;
+    line-height: 0;
+}
+.registerMess{
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: 400;
+    bottom: 0;
+    left: 37%;
+    color: red;
+    font-style: italic;
+    line-height: 0;
+}
+.registerButton {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    transform: translateY(-100%);
+    width: 43.8rem;
+    padding-top: 0.2rem;
+}
+.registerButton button {
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0 1rem;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #d5d5d577;
+}
+.buttonActive{
+    background-color: #2989df;
+    color: white;
+}
+.LoginMess{
+    position: absolute;
+    z-index: 9;
+    color: red;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.welcome{
+    background-color: white;
+    padding: 3rem;
+    border-radius: 0.4rem;
+}
+.welcome button{
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0 1rem;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    background-color: #2989df;
+}
+.welcome a{
+    color: white;
+    text-decoration: none;
+}

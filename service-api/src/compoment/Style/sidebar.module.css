@@ -1,0 +1,71 @@
+:root{
+    --width-icon-closeNab:0.75rem;
+    --height-icon-closeNab:2.625rem;
+}
+.active{
+    opacity: 1 !important
+}
+.iconMenu>svg{
+    width: 1.5rem;
+    color: white;
+    margin: 1.2rem;
+}
+.sideBar{
+    max-width: 23.75rem;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    transition: color 0.25s ease, 0.25s ease, all 0.25s ease;
+    z-index: 999;
+}
+.sideBarMenu{
+    color :white;
+    margin-top: 2rem;
+}
+.sideBarItem{
+    height: 40px;
+    opacity: 0.7;
+    margin: 0 1rem 0 3rem ;
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    line-height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: color 0.25s ease, 0.25s ease, all 0.25s ease;
+    letter-spacing: 0.03rem;
+    overflow: hidden;
+}
+.sideBarItem svg{
+    opacity: 0;
+}
+.sideBarItem:hover{
+    opacity: 1;
+}
+.sideBarItem:hover svg{
+    opacity: 1;
+}
+.sideBarItem a{
+    color: white;
+    text-decoration: none;
+}
+.iconCloseNab{
+    top: calc(50% - var(--width-icon-closeNab));
+    width: var(--width-icon-closeNab);
+    height: var(--height-icon-closeNab);
+    position: absolute;
+    right: -0.75rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #6E717D;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    cursor: pointer;
+}
+/* Keyfram*/

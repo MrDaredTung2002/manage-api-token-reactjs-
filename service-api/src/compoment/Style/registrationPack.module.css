@@ -1,0 +1,62 @@
+.successfulRegis{
+    position: fixed;
+    display: flex;
+    z-index: 9999;
+    background-color: rgba(181, 181, 181, 0.275);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notify{
+    width: 34.9375rem;
+    height: 16rem;
+    background-color: white;
+}
+.closeNotify{
+    display: flex;
+    justify-content: end;
+}
+.closeNotify svg{
+    width: 2rem;
+    height: 2rem;
+}
+.notifyIcon{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.notifyIcon svg{
+    width: 2rem;
+    height: 2rem;
+    color: #a4d166;
+}
+.notifyAlert{
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.canceNotify{
+    display: flex;
+    justify-content: center;
+
+}
+.canceNotify button{
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0 1rem;
+    font-weight: 500;
+    border-radius: 0.2rem;
+    
+}
+.canceNotify a{
+    color: black;
+    text-decoration: none;
+}

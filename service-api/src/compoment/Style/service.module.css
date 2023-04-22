@@ -1,0 +1,119 @@
+.service{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.serviceTable{
+    background-image: linear-gradient(to bottom, #dde2ff , #fff);
+    position: relative;
+    min-width: 54.6531rem;
+    height: 30rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 0.6rem #8b8b8b87;
+}
+.serviceList{
+    margin: 3rem 0.4rem 0rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.serviceItem{
+    margin: 0 0.2rem;
+    padding: 1rem;
+    border-bottom: .4rem solid #2989DF;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+    position: absolute;
+    width: 13.425rem;
+    background-color: white;
+    max-height: 26.925rem;
+}
+.serviceItem:nth-child(4){
+    right: 0;
+}
+.serviceItem:nth-child(3){
+    right: calc(27.225rem/2);
+}
+.serviceItem:nth-child(2){
+    right: 27.225rem;
+}
+.serviceItem:nth-child(1){
+    right: calc(27.225rem*3/2);
+}
+.active{
+    bottom: -2rem;
+    top: 1rem;
+    border-bottom: 0.4rem solid #f3a825;
+    box-shadow: 0 0 1rem #b1b1b149;
+    z-index: 50;
+    max-height: none;
+    border-radius: 0.4rem;
+}
+.active  .packageName{
+    margin-top: 2rem;
+}
+.packageName{
+    text-transform: uppercase;
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-align: center;
+}
+.packageName::after{
+    content: '';
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #d5dcff;
+    display: inherit;
+    margin: auto;
+}
+.packagePrice{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 1.4rem;
+    text-align: center;
+}
+.packageDuration{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.packageButton{
+    width: 100%;
+    height: 2rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #2989DF;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+    cursor: pointer;
+}
+.packageButton a{
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    
+}
+.packageDecriptionList{
+    margin-bottom: 10rem;
+}
+.packageDecriptionItem{
+    font-size: .8rem;
+    font-weight: 600;
+    margin: 0.8rem 0;
+}
+.packageDecriptionItem>svg{
+    margin: 0 0.2rem;
+    color: #2989DF;
+}
+.active .packageName::after{
+    background-color: #f3a825;
+}
+.active svg{
+    color: #f3a825;
+}
+.active button{
+    background-color: #f3a825;
+}

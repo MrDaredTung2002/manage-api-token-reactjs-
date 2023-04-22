@@ -1,0 +1,6 @@
+.content{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    transition: color 0.25s ease, 0.25s ease, all 0.25s ease;
+}
